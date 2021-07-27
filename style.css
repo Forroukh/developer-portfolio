@@ -35,13 +35,14 @@ p{
     border-radius: 10px;
     padding: 10px;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
     padding-left: 5%;
+    margin-right: 40px;
 
 }
 .half-width img{
@@ -58,4 +59,30 @@ section{
     background-repeat: no-repeat;
     background-position: right;
     
+   
+    
+}
+.full {
+    box-shadow: 10px 10px 20px rgb(80, 80, 201);
+    width: 40%;
+    margin-left: 30px;
+    margin-top: 10px;
+    overflow: scroll;
+   
+    
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border: 5px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice:1;
+}
+#baby{
+    border: 5px solid;
+    border-image: linear-gradient(red,rgb(32, 2, 6));
+    border-image-slice:1;
 }
